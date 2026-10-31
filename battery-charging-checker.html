@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Battery/Charging Checker — Galaxy Phone Help for Beginners</title>
+<meta name="description" content="Answer five simple questions about battery use and get plain settings to check on your Galaxy phone.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><nav><a class="site-name" href="index.html">Galaxy Phone Help</a><span class="nav-links"><a href="index.html">Home</a><a href="scam-checker.html">Scam Checker</a><a href="storage-checker.html">Storage Checker</a><a href="about.html">About</a></span></nav></header>
+<main>
+<h1>Battery/Charging Checker</h1>
+<p>Many people worry when a phone battery seems to run out quickly. The cause is often simple: a bright screen, a short list of settings, or apps left running in the background. This checker asks five simple questions about how your phone feels and how you use it, and then lists plain settings you can check yourself. The settings are the same ones a helper would look at first, written in plain words with the menu path you need.</p>
+<p>This checker is not a diagnosis, and it does not prove battery health. It cannot tell you whether a battery is worn out, faulty, or fine. It only points to settings to check, based on your answers. If your phone feels very hot, swells, smells strange, or stops working, stop using it, keep it away from soft bedding and water, and ask for help in person from a trusted person or a repair shop you trust. Do not open the phone yourself, and do not keep charging a phone that feels unsafe.</p>
+<p>Answer each question as honestly as you can. If you do not know the answer to the question about apps running in the background, choose "Do not know". That is a normal answer. Nothing you choose is sent anywhere, and nothing is stored by this site. The check happens only in your browser.</p>
+<h2>How to use this tool</h2>
+<ol>
+<li>Read the first question and choose the answer that fits your phone best.</li>
+<li>Answer all five questions.</li>
+<li>Tap or click "Check my battery settings".</li>
+<li>Read the list of plain settings to check, and follow each one on your phone, one at a time.</li>
+<li>Use the phone as normal for a day or two and notice if the battery feels different. You can come back and answer the questions again.</li>
+</ol>
+<section class="tool-box">
+<label for="hot-often">Does your phone feel hot often?</label>
+<select id="hot-often">
+<option value="no">No</option>
+<option value="yes">Yes</option>
+</select>
+<label for="drops-fast">Does the battery drop fast during normal use?</label>
+<select id="drops-fast">
+<option value="no">No</option>
+<option value="yes">Yes</option>
+</select>
+<label for="brightness-high">Is your screen brightness set high?</label>
+<select id="brightness-high">
+<option value="no">No</option>
+<option value="yes">Yes</option>
+</select>
+<label for="background-apps">Do many apps run in the background?</label>
+<select id="background-apps">
+<option value="do-not-know">Do not know</option>
+<option value="yes">Yes</option>
+<option value="no">No</option>
+</select>
+<label for="charges-overnight">Do you charge your phone overnight?</label>
+<select id="charges-overnight">
+<option value="no">No</option>
+<option value="yes">Yes</option>
+</select>
+<button type="button" id="check-btn" class="big-button">Check my battery settings</button>
+<div id="result" aria-live="polite"></div>
+</section>
+<h2>Worked example</h2>
+<p>Example answers: phone feels hot often — Yes; battery drops fast — Yes; brightness high — Yes; many apps run in the background — Do not know; charges overnight — Yes. With those answers, the result lists all four plain settings to check: Power saving in Settings, then Device care, then Battery, then Power saving; lower brightness; a shorter screen timeout in Settings, then Display; and close unused apps. It also says this is not a diagnosis and does not prove battery health. When you tap "Try the example", the five boxes are filled with those answers and the check runs, so you can see the exact result.</p>
+<p><button type="button" id="try-example-btn" class="big-button">Try the example</button></p>
+<h2>Common mistakes</h2>
+<ul>
+<li><strong>Thinking a settings list is a battery test.</strong> This checker only lists settings to check. It does not test the battery and does not prove battery health. If the phone still feels wrong after you check the settings, ask for help in person instead of assuming the battery is fine or broken.</li>
+<li><strong>Leaving brightness at the highest level all day.</strong> A very bright screen uses more power than most other settings. Lowering brightness a little, so the screen is still easy to read, is one of the simplest changes to try first.</li>
+<li><strong>Leaving many apps open when you have finished with them.</strong> Apps left open can keep working in the background. Close apps you are not using, one at a time, and notice if the phone feels cooler and the battery lasts longer.</li>
+<li><strong>Changing many settings at once.</strong> If you change five things at once, you will not know which change helped. Change one setting, use the phone as normal, and then try the next setting if you still want to.</li>
+<li><strong>Ignoring a phone that feels very hot or looks swollen.</strong> A warm phone during a long call or a game can be normal, but a phone that feels very hot, swells, or smells strange needs help in person. Stop charging it, stop using it, and ask a trusted person or a repair shop for help.</li>
+</ul>
+<h2>Frequently asked questions</h2>
+<h3>Does this checker tell me if my battery is healthy?</h3>
+<p>No. This is not a diagnosis and it does not prove battery health. It only lists plain settings to check, based on your answers. It cannot say whether a battery is worn out, faulty, or fine.</p>
+<h3>Where do I find Power saving?</h3>
+<p>Open Settings, then Device care, then Battery, then Power saving. Turn Power saving on to reduce background work and screen brightness when the battery is low. You can turn it off again in the same place.</p>
+<h3>How do I make the screen turn off sooner?</h3>
+<p>Open Settings, then Display, and look for the screen timeout setting. Choose a shorter time, so the screen turns off sooner when you are not using the phone. A shorter timeout helps the battery last longer.</p>
+<h3>What does "close unused apps" mean?</h3>
+<p>It means closing apps you have finished using, instead of leaving them open in the background. Open the recent apps view on your phone, and close the apps you do not need right now. Your photos and messages are not deleted when you close an app.</p>
+<h3>Should I charge my phone overnight?</h3>
+<p>This checker does not give a charging rule. If you charge overnight, check the Power saving setting in Settings, then Device care, then Battery, then Power saving, and keep the phone in a cool, open place while it charges. If you are worried about charging, ask a trusted person to look at the settings with you.</p>
+</main>
+<footer><p><a href="index.html">Home</a> <a href="about.html">About</a> <a href="contact.html">Contact</a> <a href="privacy-policy.html">Privacy Policy</a> <a href="terms.html">Terms</a> <a href="disclaimer.html">Disclaimer</a></p><p>This is an independent help site. It is not affiliated with or endorsed by Samsung. Galaxy and One UI are trademarks of Samsung Electronics. Steps were checked against Samsung support pages in October 2026; menu words may differ slightly by model, region, carrier, and One UI version (One UI 8, 8.5, or 9). If a word looks different on your phone, use the search box at the top of Settings and type the name of the setting.</p></footer>
+<script src="script.js"></script>
+<script>
+(function () {
+  var result = document.getElementById("result");
+  function valueOf(id) {
+    return document.getElementById(id).value;
+  }
+  function showResult() {
+    var hot = valueOf("hot-often");
+    var drops = valueOf("drops-fast");
+    var bright = valueOf("brightness-high");
+    var background = valueOf("background-apps");
+    result.textContent = "";
+    var heading = document.createElement("p");
+    heading.textContent = "Settings to check:";
+    result.appendChild(heading);
+    var list = document.createElement("ul");
+    var steps = [];
+    if (hot === "yes" || drops === "yes") {
+      steps.push("Check Power saving: Settings, then Device care, then Battery, then Power saving.");
+    }
+    if (bright === "yes") {
+      steps.push("Lower brightness so the screen is still easy to read, but not at the highest level.");
+      steps.push("Use a shorter screen timeout via Settings, then Display.");
+    }
+    if (background === "yes" || background === "do-not-know") {
+      steps.push("Close unused apps you have finished using.");
+    }
+    if (steps.length === 0) {
+      steps.push("Check Power saving: Settings, then Device care, then Battery, then Power saving.");
+      steps.push("Lower brightness so the screen is still easy to read, but not at the highest level.");
+      steps.push("Use a shorter screen timeout via Settings, then Display.");
+      steps.push("Close unused apps you have finished using.");
+    }
+    var i;
+    for (i = 0; i < steps.length; i++) {
+      var item = document.createElement("li");
+      item.textContent = steps[i];
+      list.appendChild(item);
+    }
+    result.appendChild(list);
+    var note = document.createElement("p");
+    note.textContent = "This is not a diagnosis and does not prove battery health. These are only plain settings to check. If your phone feels very hot, swells, or stops working, stop using it and ask for help in person.";
+    result.appendChild(note);
+  }
+  document.getElementById("check-btn").addEventListener("click", showResult);
+  document.getElementById("try-example-btn").addEventListener("click", function () {
+    document.getElementById("hot-often").value = "yes";
+    document.getElementById("drops-fast").value = "yes";
+    document.getElementById("brightness-high").value = "yes";
+    document.getElementById("background-apps").value = "do-not-know";
+    document.getElementById("charges-overnight").value = "yes";
+    showResult();
+  });
+})();
+</script>
+</body>
+</html>

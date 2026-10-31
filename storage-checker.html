@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Phone Storage Checker — Galaxy Phone Help for Beginners</title>
+<meta name="description" content="Enter your total and used phone storage to see how much room is left and what to tidy up, in plain simple English.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><nav><a class="site-name" href="index.html">Galaxy Phone Help</a><span class="nav-links"><a href="index.html">Home</a><a href="scam-checker.html">Scam Checker</a><a href="storage-checker.html">Storage Checker</a><a href="about.html">About</a></span></nav></header>
+<main>
+<h1>Phone Storage Checker</h1>
+<p>Storage is the room on your phone for photos, videos, apps, and updates. When storage gets full, your phone may feel slow, photos may not save, and updates may not install. This checker helps you see, in plain numbers, how much room you have used and how much room is left. You only type two numbers: how much storage your phone has in total, and how much is already used.</p>
+<p>You can find those two numbers on your Galaxy phone in Settings, under Device care, then Storage. The screen there shows the total size and how much is used. Write the numbers down, then type them here. The numbers are only used in your browser to do the maths. Nothing is sent anywhere, and nothing is stored by this site. This checker deletes nothing. It will never remove a photo, a video, or an app. It only gives you a simple plan to follow yourself, step by step, at your own pace.</p>
+<p>Before you delete anything, back up your photos and videos first. A backup is a second copy kept somewhere else, so that if you delete the copy on your phone by mistake, you still have the other copy. Never delete the only copy of a photo or video that matters to you. If you are unsure about an app or a file, ask a family member or a trusted person before you remove it.</p>
+<h2>How to use this tool</h2>
+<ol>
+<li>On your Galaxy phone, open Settings, then Device care, then Storage, and note the total storage and the used storage, in GB.</li>
+<li>Type the total storage number in the first box below, and the used storage number in the second box.</li>
+<li>Tap or click "Check my storage".</li>
+<li>Read how much free room you have, the percentage used, and the simple plan for your result.</li>
+<li>Follow the plan yourself, one step at a time, and back up photos and videos before you delete anything.</li>
+</ol>
+<section class="tool-box">
+<label for="total-storage">Total storage on your phone (in GB):</label>
+<input type="number" id="total-storage" inputmode="decimal" min="0" step="any" placeholder="For example: 128">
+<label for="used-storage">Used storage on your phone (in GB):</label>
+<input type="number" id="used-storage" inputmode="decimal" min="0" step="any" placeholder="For example: 96">
+<button type="button" id="check-btn" class="big-button">Check my storage</button>
+<div id="result" aria-live="polite"></div>
+</section>
+<h2>Worked example</h2>
+<p>Example: total storage 128 GB, used storage 96 GB. The checker works out 32 GB free, and 75% used. That falls in the "tidy up soon" range, from 50% to 79% used. The plan is: delete duplicate or blurry photos only after backup, remove apps you do not use, and clear app cache in Settings, then Apps. The checker deletes nothing. When you tap "Try the example", the two boxes are filled with 128 and 96, and the check runs so you can see the exact result.</p>
+<p><button type="button" id="try-example-btn" class="big-button">Try the example</button></p>
+<h2>Common mistakes</h2>
+<ul>
+<li><strong>Deleting photos before making a backup.</strong> Once a photo is deleted from the phone and from the bin, it may be gone for good. Always make a backup copy first, check that the backup worked, and only then delete the copy on the phone.</li>
+<li><strong>Removing apps you still need.</strong> Some apps hold your messages, photos, or sign-in details. Before you remove an app, check what it holds and whether you can sign in again. Remove only apps you recognise and no longer use.</li>
+<li><strong>Clearing data instead of clearing cache.</strong> Clearing cache removes temporary files and is a gentle tidy-up. Clearing data can remove your sign-in and saved details inside an app. In Settings, then Apps, use the cache option only, unless a trusted person guides you through the other choice.</li>
+<li><strong>Typing the wrong numbers.</strong> If you type the used number larger than the total number, the result cannot be right. Check both numbers on the Storage screen again. The used number must be the same as, or smaller than, the total number.</li>
+<li><strong>Waiting until the phone is completely full.</strong> When storage is full, updates and new photos may fail. It is easier to tidy up a little at a time, when the checker says "tidy up soon", than to wait until the phone says there is no room left.</li>
+</ul>
+<h2>Frequently asked questions</h2>
+<h3>Does this checker delete anything from my phone?</h3>
+<p>No. This checker deletes nothing. It only shows you the numbers and a simple plan. You choose what to delete yourself, after you have made a backup, and only if you are sure.</p>
+<h3>Where do I find the total and used storage numbers?</h3>
+<p>On your Galaxy phone, open Settings, then Device care, then Storage. That screen shows the total storage and how much is used. Note both numbers in GB, then type them into the boxes on this page.</p>
+<h3>What does the percentage used mean?</h3>
+<p>It means how much of the total room is already taken up. For example, 75% used means three quarters of the room is taken, and one quarter is still free. Below 50% means plenty of room. From 50% to 79% means tidy up soon. At 80% or more, act now and back up first.</p>
+<h3>Is it safe to clear app cache?</h3>
+<p>Clearing app cache in Settings, then Apps, removes temporary files. It does not normally remove your photos or your account. If you are unsure about a particular app, ask a trusted person before you clear anything in that app.</p>
+<h3>What if my used storage is the same as my total storage?</h3>
+<p>That means the phone is full, at 100% used, with no free room. Back up your photos and videos first, then follow the "act now" steps: move photos and videos to backup, remove unused apps, and clear app cache. Do not delete the only copy of anything important.</p>
+</main>
+<footer><p><a href="index.html">Home</a> <a href="about.html">About</a> <a href="contact.html">Contact</a> <a href="privacy-policy.html">Privacy Policy</a> <a href="terms.html">Terms</a> <a href="disclaimer.html">Disclaimer</a></p><p>This is an independent help site. It is not affiliated with or endorsed by Samsung. Galaxy and One UI are trademarks of Samsung Electronics. Steps were checked against Samsung support pages in October 2026; menu words may differ slightly by model, region, carrier, and One UI version (One UI 8, 8.5, or 9). If a word looks different on your phone, use the search box at the top of Settings and type the name of the setting.</p></footer>
+<script src="script.js"></script>
+<script>
+(function () {
+  var totalInput = document.getElementById("total-storage");
+  var usedInput = document.getElementById("used-storage");
+  var result = document.getElementById("result");
+  function formatNumber(n) {
+    return String(Number(n.toFixed(1)));
+  }
+  function showResult() {
+    var total = parseFloat(totalInput.value);
+    var used = parseFloat(usedInput.value);
+    result.textContent = "";
+    var message = document.createElement("p");
+    if (isNaN(total) || isNaN(used) || total <= 0 || used < 0 || used > total) {
+      message.textContent = "Please check your numbers. Total storage must be more than 0, used storage must be 0 or more, and used storage must not be larger than total storage.";
+      result.appendChild(message);
+      return;
+    }
+    var free = total - used;
+    var percent = (used / total) * 100;
+    var numbers = document.createElement("p");
+    numbers.textContent = "Free room: " + formatNumber(free) + " GB. Used: " + formatNumber(percent) + "%. This checker deletes nothing.";
+    result.appendChild(numbers);
+    var heading = document.createElement("p");
+    var plan = document.createElement("ul");
+    var steps;
+    if (percent < 50) {
+      heading.textContent = "Plenty of room. You do not need to tidy up right now.";
+      steps = ["Keep an eye on storage now and then, in Settings, then Device care, then Storage.", "Back up photos and videos from time to time, so you always have a second copy."];
+    } else if (percent < 80) {
+      heading.textContent = "Tidy up soon. You still have room, but it is getting fuller.";
+      steps = ["Delete duplicate or blurry photos after backup.", "Remove unused apps you recognise and no longer use.", "Clear app cache via Settings, then Apps."];
+    } else {
+      heading.textContent = "Act now. Storage is nearly full. Back up first, before you delete anything.";
+      steps = ["Move photos and videos to backup first, and check the backup worked. Do not delete the only copy.", "Delete duplicate or blurry photos after backup.", "Remove unused apps you recognise and no longer use.", "Clear app cache via Settings, then Apps."];
+    }
+    result.appendChild(heading);
+    var i;
+    for (i = 0; i < steps.length; i++) {
+      var item = document.createElement("li");
+      item.textContent = steps[i];
+      plan.appendChild(item);
+    }
+    result.appendChild(plan);
+  }
+  document.getElementById("check-btn").addEventListener("click", showResult);
+  document.getElementById("try-example-btn").addEventListener("click", function () {
+    totalInput.value = "128";
+    usedInput.value = "96";
+    showResult();
+  });
+})();
+</script>
+</body>
+</html>

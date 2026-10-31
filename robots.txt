@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://perpelov.tech/sitemap.xml

@@ -1,0 +1,390 @@
+/* Galaxy Phone Help — original theme for perpelov.tech
+   Simple, high-contrast, mobile-first. System fonts only. No external resources. */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 19px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  font-size: 19px;
+  line-height: 1.6;
+  color: #1a1a1a;
+  background-color: #fdf8ef;
+}
+
+a {
+  color: #0b5c3f;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+a:hover {
+  color: #083d2a;
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+  outline: 3px solid #e67e22;
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+/* Header and navigation */
+
+header {
+  background-color: #1b4332;
+  color: #ffffff;
+  padding: 0;
+}
+
+header nav {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 14px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px 20px;
+}
+
+.site-name {
+  color: #ffffff;
+  font-size: 1.35rem;
+  font-weight: 800;
+  line-height: 1.25;
+  text-decoration: none;
+  min-height: 48px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.site-name:hover {
+  color: #ffe8c2;
+}
+
+.nav-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 10px;
+  margin-left: auto;
+}
+
+.nav-links a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  min-height: 48px;
+  display: inline-flex;
+  align-items: center;
+  padding: 10px 14px;
+  border-radius: 8px;
+  border: 2px solid transparent;
+}
+
+.nav-links a:hover {
+  color: #ffffff;
+  background-color: #2d6a4f;
+  border-color: #ffffff;
+}
+
+/* Main layout */
+
+main {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 28px 20px 48px;
+}
+
+h1 {
+  font-size: 2.05rem;
+  line-height: 1.25;
+  margin: 0.4em 0 0.6em;
+  color: #12261d;
+}
+
+h2 {
+  font-size: 1.5rem;
+  line-height: 1.3;
+  margin: 1.6em 0 0.5em;
+  color: #12261d;
+}
+
+h3 {
+  font-size: 1.22rem;
+  line-height: 1.35;
+  margin: 1.4em 0 0.4em;
+  color: #1b4332;
+}
+
+p {
+  margin: 0.7em 0;
+}
+
+ul,
+ol {
+  margin: 0.7em 0 1em;
+  padding-left: 1.4em;
+}
+
+li {
+  margin: 0.55em 0;
+}
+
+li a {
+  font-weight: 600;
+}
+
+small {
+  font-size: 0.92rem;
+}
+
+/* Cards and grids */
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 18px;
+  margin: 1em 0 1.5em;
+}
+
+.card {
+  background-color: #ffffff;
+  border: 2px solid #d8cdb8;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.card h3 {
+  margin-top: 0;
+}
+
+.card h3 a {
+  text-decoration: none;
+}
+
+.card h3 a:hover {
+  text-decoration: underline;
+}
+
+.card p {
+  margin-bottom: 0;
+}
+
+.card p:last-child {
+  margin-bottom: 0;
+}
+
+/* Tool box and forms */
+
+.tool-box {
+  background-color: #ffffff;
+  border: 2px solid #1b4332;
+  border-radius: 12px;
+  padding: 22px;
+  margin: 1.2em 0;
+}
+
+label {
+  display: block;
+  font-weight: 700;
+  margin: 1em 0 0.35em;
+  font-size: 1.02rem;
+}
+
+input,
+textarea,
+select {
+  width: 100%;
+  font-family: inherit;
+  font-size: 1.05rem;
+  line-height: 1.5;
+  color: #1a1a1a;
+  background-color: #ffffff;
+  border: 2px solid #6b6b6b;
+  border-radius: 8px;
+  padding: 13px 14px;
+  min-height: 52px;
+}
+
+textarea {
+  min-height: 130px;
+  resize: vertical;
+}
+
+button,
+.big-button {
+  font-family: inherit;
+  font-size: 1.08rem;
+  font-weight: 700;
+  line-height: 1.4;
+  color: #1a1a1a;
+  background-color: #f4a261;
+  border: 2px solid #9c4a00;
+  border-radius: 10px;
+  padding: 14px 22px;
+  min-height: 52px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+}
+
+button:hover,
+.big-button:hover {
+  background-color: #e76f51;
+  color: #ffffff;
+}
+
+.big-button {
+  margin: 0.6em 0;
+}
+
+button[type="button"] {
+  margin-top: 0.8em;
+}
+
+/* Warning box */
+
+.warning {
+  background-color: #fff3cd;
+  border: 3px solid #b45309;
+  border-left-width: 8px;
+  border-radius: 10px;
+  padding: 18px 20px;
+  margin: 1.2em 0;
+}
+
+.warning strong {
+  color: #7c2d12;
+}
+
+.warning p:first-child {
+  margin-top: 0;
+}
+
+.warning p:last-child {
+  margin-bottom: 0;
+}
+
+/* Tables */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1em 0 1.4em;
+  font-size: 1rem;
+  background-color: #ffffff;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 12px 14px;
+  border: 1px solid #8a8a8a;
+  vertical-align: top;
+}
+
+th {
+  background-color: #1b4332;
+  color: #ffffff;
+}
+
+/* Footer */
+
+footer {
+  background-color: #e9e2d0;
+  border-top: 3px solid #1b4332;
+  color: #1a1a1a;
+  padding: 24px 20px 36px;
+}
+
+footer p {
+  max-width: 760px;
+  margin: 0.7em auto;
+  font-size: 0.98rem;
+  line-height: 1.6;
+}
+
+footer p:first-child {
+  font-weight: 600;
+}
+
+footer a {
+  display: inline-block;
+  min-height: 48px;
+  line-height: 48px;
+  padding: 0 10px;
+  margin-right: 4px;
+}
+
+/* Wide screens: two-column card grid */
+
+@media (min-width: 640px) {
+  .grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  h1 {
+    font-size: 2.3rem;
+  }
+}
+
+/* Print: main content only */
+
+@media print {
+  body {
+    background-color: #ffffff;
+    font-size: 14pt;
+    line-height: 1.5;
+  }
+
+  header nav,
+  footer {
+    display: none;
+  }
+
+  header {
+    background-color: #ffffff;
+  }
+
+  main {
+    max-width: none;
+    padding: 0;
+  }
+
+  a {
+    color: #000000;
+    text-decoration: none;
+  }
+
+  .card,
+  .tool-box,
+  .warning {
+    border: 1px solid #000000;
+    break-inside: avoid;
+  }
+
+  button,
+  .big-button {
+    display: none;
+  }
+
+  .print-only {
+    display: block;
+  }
+}
+
+.print-only {
+  display: none;
+}

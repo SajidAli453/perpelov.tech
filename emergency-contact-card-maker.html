@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Emergency Contact Card Maker — Galaxy Phone Help for Beginners</title>
+<meta name="description" content="Make a simple printable emergency contact card, in your browser only, with large easy-to-read text.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><nav><a class="site-name" href="index.html">Galaxy Phone Help</a><span class="nav-links"><a href="index.html">Home</a><a href="scam-checker.html">Scam Checker</a><a href="storage-checker.html">Storage Checker</a><a href="about.html">About</a></span></nav></header>
+<main>
+<h1>Emergency Contact Card Maker</h1>
+<p>An emergency contact card is a small card you can keep in your wallet, in your phone case, or on your fridge. It shows your name and the name and phone number of one trusted person who should be called if you need help and cannot speak for yourself. A clear card with large text can help a helper, a neighbour, or a medical worker reach the right person quickly, without searching through your phone.</p>
+<p>This maker only shows the card on your screen so you can print it. The details you type stay in this browser. Nothing is sent anywhere, and nothing is stored by this site. When you close the page, the details are gone unless you have printed the card. Keep the note short, and only include what you are happy to share with a stranger who finds the card. For example, a short allergy note can help, but only if you choose to share it. Do not put passwords, bank details, card numbers, or any other private details on the card.</p>
+<p>Check the phone number twice before you print. One wrong digit can mean the wrong person is called. Show the printed card to the contact person, and tell them you have named them, so they are not surprised if they get a call. Check the card now and then, and make a new one if the phone number changes.</p>
+<h2>How to use this tool</h2>
+<ol>
+<li>Type your full name in the first box.</li>
+<li>Type the full name of one trusted contact person in the second box.</li>
+<li>Type that person's phone number in the third box. Check each digit.</li>
+<li>If you wish, type a very short note in the last box, for example a short allergy note. Keep it short, and only include what you want shared.</li>
+<li>Tap or click "Make my card", check the large-text preview, then tap "Print card".</li>
+</ol>
+<section class="tool-box">
+<label for="your-name">Your name:</label>
+<input type="text" id="your-name" autocomplete="off" placeholder="Your full name">
+<label for="contact-name">Emergency contact name:</label>
+<input type="text" id="contact-name" autocomplete="off" placeholder="Full name of one trusted person">
+<label for="contact-phone">Emergency contact phone number:</label>
+<input type="text" id="contact-phone" inputmode="tel" autocomplete="off" placeholder="Phone number, checked digit by digit">
+<label for="card-note">Short note (optional, keep it short):</label>
+<input type="text" id="card-note" autocomplete="off" placeholder="For example: Allergy: peanuts">
+<button type="button" id="make-btn" class="big-button">Make my card</button>
+<button type="button" id="print-btn" class="big-button">Print card</button>
+<div id="result" aria-live="polite"></div>
+<div id="card-preview" aria-live="polite">
+<p><strong>Emergency Contact Card</strong></p>
+<p>Your name: <span id="preview-name"></span></p>
+<p>Please call: <span id="preview-contact-name"></span></p>
+<p>Phone: <span id="preview-contact-phone"></span></p>
+<p>Note: <span id="preview-note"></span></p>
+</div>
+</section>
+<h2>Worked example</h2>
+<p>Example: name "Fatima Ali", contact name "Ahmed Ali", phone number "0300 123 4567", note "Allergy: peanuts". When you tap "Make my card" with those details, the preview shows a large-text card with exactly those words, and the note line shows "Allergy: peanuts". The phone number in this example is an example only. Replace it with the real number, checked digit by digit. When you tap "Try the example", the four boxes are filled with the example details and the card preview is made for you.</p>
+<p><button type="button" id="try-example-btn" class="big-button">Try the example</button></p>
+<h2>Common mistakes</h2>
+<ul>
+<li><strong>Putting too much private detail on the card.</strong> A card can be seen by anyone who finds it. Keep it to a name, one contact name, one phone number, and one short note if you choose. Never put passwords, bank details, card numbers, or addresses on the card.</li>
+<li><strong>Not checking the phone number.</strong> One wrong digit means the helper calls the wrong person. Read the number back digit by digit, and call it once yourself to check it reaches the right person before you print the card.</li>
+<li><strong>Naming someone without telling them.</strong> The contact person should know they are named, and should know what to do if they get a call. Tell them in person, and agree what they should say and do.</li>
+<li><strong>Writing a long note that is hard to read in a hurry.</strong> A helper in an emergency needs short, clear words. Keep the note to a few words, such as "Allergy: peanuts". Long sentences are harder to read quickly and may be left out when the card is read in a hurry.</li>
+<li><strong>Forgetting to make a new card when details change.</strong> If the contact person changes their number, or you change your note, the old card becomes wrong. Throw the old card away and print a fresh one with the new details.</li>
+</ul>
+<h2>Frequently asked questions</h2>
+<h3>Is the information I type sent or stored anywhere?</h3>
+<p>No. The details stay in this browser only. Nothing is sent anywhere, and nothing is stored by this site. When you close the page, the details are gone. Print the card if you want to keep it.</p>
+<h3>Can I add more than one contact person?</h3>
+<p>This maker is kept simple, with one contact person, so the card stays clear and easy to read in a hurry. If you want a second person, print this card, then make a second card with the other person's details, or write the second name on the back of the printed card by hand.</p>
+<h3>Should I include my address on the card?</h3>
+<p>No. Do not put your home address on the card. A name, one contact name, one phone number, and one short note are enough. An address on a lost card could be used by the wrong person.</p>
+<h3>What should the short note say?</h3>
+<p>Only what you want a stranger to know in an emergency, in a few words. For example, "Allergy: peanuts" or "Diabetes". Keep it short, and only include it if you are happy for it to be shared. Leave the note empty if you prefer no note at all.</p>
+<h3>Where should I keep the printed card?</h3>
+<p>Keep it where a helper can find it quickly, such as in your wallet or phone case. Some people also keep a copy on the fridge at home. Keep the card dry and easy to read, and replace it if the writing fades or the details change.</p>
+</main>
+<footer><p><a href="index.html">Home</a> <a href="about.html">About</a> <a href="contact.html">Contact</a> <a href="privacy-policy.html">Privacy Policy</a> <a href="terms.html">Terms</a> <a href="disclaimer.html">Disclaimer</a></p><p>This is an independent help site. It is not affiliated with or endorsed by Samsung. Galaxy and One UI are trademarks of Samsung Electronics. Steps were checked against Samsung support pages in October 2026; menu words may differ slightly by model, region, carrier, and One UI version (One UI 8, 8.5, or 9). If a word looks different on your phone, use the search box at the top of Settings and type the name of the setting.</p></footer>
+<script src="script.js"></script>
+<script>
+(function () {
+  var nameInput = document.getElementById("your-name");
+  var contactNameInput = document.getElementById("contact-name");
+  var phoneInput = document.getElementById("contact-phone");
+  var noteInput = document.getElementById("card-note");
+  var result = document.getElementById("result");
+  function makeCard() {
+    var name = nameInput.value.trim();
+    var contactName = contactNameInput.value.trim();
+    var phone = phoneInput.value.trim();
+    var note = noteInput.value.trim();
+    result.textContent = "";
+    if (!name || !contactName || !phone) {
+      var error = document.createElement("p");
+      error.textContent = "Please fill in your name, the contact name, and the contact phone number before making the card.";
+      result.appendChild(error);
+      return;
+    }
+    document.getElementById("preview-name").textContent = name;
+    document.getElementById("preview-contact-name").textContent = contactName;
+    document.getElementById("preview-contact-phone").textContent = phone;
+    document.getElementById("preview-note").textContent = note ? note : "None";
+    var done = document.createElement("p");
+    done.textContent = "Card ready. Check the phone number digit by digit, then tap Print card. Data stays in this browser. Nothing is sent or stored by the site. Do not put passwords or bank details on the card.";
+    result.appendChild(done);
+  }
+  document.getElementById("make-btn").addEventListener("click", makeCard);
+  document.getElementById("print-btn").addEventListener("click", function () { window.print(); });
+  document.getElementById("try-example-btn").addEventListener("click", function () {
+    nameInput.value = "Fatima Ali";
+    contactNameInput.value = "Ahmed Ali";
+    phoneInput.value = "0300 123 4567";
+    noteInput.value = "Allergy: peanuts";
+    makeCard();
+  });
+})();
+</script>
+</body>
+</html>
