@@ -647,3 +647,18 @@ footer p {
     display: none;
   }
 }
+
+/* Guide figures (added Guide 31): keep hero illustrations inside the column */
+main figure {
+  margin: 0 0 1em;
+}
+
+main figure img {
+  max-width: 100%;
+  height: auto;
+}
+
+main figcaption {
+  font-size: 17px;
+  color: #444;
+}

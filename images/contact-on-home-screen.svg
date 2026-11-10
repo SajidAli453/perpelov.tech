@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" role="img" aria-labelledby="svgTitle svgDesc">
+<title id="svgTitle">A phone home screen with one big contact shortcut</title>
+<desc id="svgDesc">A simple drawing of a Samsung Galaxy style phone. On its home screen is one large contact card with a round photo, the name Hina, and a big green call button.</desc>
+<rect width="800" height="450" fill="#123524"/>
+<rect x="60" y="40" width="680" height="370" rx="36" fill="#e8e6d9"/>
+<circle cx="130" cy="110" r="10" fill="#1e5c3a"/>
+<circle cx="400" cy="110" r="10" fill="#1e5c3a"/>
+<rect x="300" y="180" width="200" height="130" rx="18" fill="#ffffff" stroke="#1e5c3a" stroke-width="4"/>
+<rect x="300" y="180" width="200" height="44" rx="18" fill="#1e5c3a"/>
+<rect x="300" y="206" width="200" height="18" fill="#1e5c3a"/>
+<text x="400" y="211" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#ffffff" text-anchor="middle">Hina</text>
+<circle cx="400" cy="262" r="16" fill="#f2b705"/>
+<text x="400" y="270" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#123524" text-anchor="middle">H</text>
+<text x="400" y="300" font-family="Arial, sans-serif" font-size="16" fill="#123524" text-anchor="middle">Tap once to call</text>
+<rect x="240" y="340" width="320" height="34" rx="17" fill="#e8e6d9"/>
+<text x="400" y="363" font-family="Arial, sans-serif" font-size="18" fill="#123524" text-anchor="middle">One tap. No searching.</text>
+</svg>
