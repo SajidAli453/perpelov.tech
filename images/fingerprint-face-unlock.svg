@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" role="img" aria-labelledby="svgTitle svgDesc">
+<title id="svgTitle">A phone opening with a fingerprint and a face</title>
+<desc id="svgDesc">A simple drawing of a Samsung Galaxy style phone. On its screen is a big fingerprint pattern and a round smiling face, with the words Touch or Look to open below.</desc>
+<rect width="800" height="450" fill="#123524"/>
+<rect x="60" y="40" width="680" height="370" rx="36" fill="#e8e6d9"/>
+<circle cx="130" cy="110" r="10" fill="#1e5c3a"/>
+<circle cx="400" cy="110" r="10" fill="#1e5c3a"/>
+<circle cx="310" cy="215" r="62" fill="none" stroke="#1e5c3a" stroke-width="5"/>
+<circle cx="310" cy="215" r="44" fill="none" stroke="#1e5c3a" stroke-width="5"/>
+<circle cx="310" cy="215" r="26" fill="none" stroke="#1e5c3a" stroke-width="5"/>
+<circle cx="310" cy="215" r="9" fill="#1e5c3a"/>
+<circle cx="490" cy="215" r="62" fill="#f2b705"/>
+<circle cx="468" cy="200" r="7" fill="#123524"/>
+<circle cx="512" cy="200" r="7" fill="#123524"/>
+<path d="M 462 228 Q 490 248 518 228" fill="none" stroke="#123524" stroke-width="5" stroke-linecap="round"/>
+<text x="310" y="312" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#123524" text-anchor="middle">Touch</text>
+<text x="490" y="312" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#123524" text-anchor="middle">Look</text>
+<rect x="240" y="340" width="320" height="34" rx="17" fill="#e8e6d9"/>
+<text x="400" y="363" font-family="Arial, sans-serif" font-size="18" fill="#123524" text-anchor="middle">Touch or look to open</text>
+</svg>
