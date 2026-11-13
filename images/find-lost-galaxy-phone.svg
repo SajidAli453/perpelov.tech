@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" role="img" aria-label="A phone showing a map with a big location pin, and sound waves coming from the phone">
+  <rect width="800" height="450" fill="#eaf3fb"/>
+  <rect x="60" y="40" width="680" height="370" rx="24" fill="#ffffff"/>
+  <path d="M60 130 H740 M60 220 H740 M60 310 H740 M240 40 V410 M420 40 V410 M600 40 V410" stroke="#d7e6f5" stroke-width="3"/>
+  <path d="M120 360 C 220 300, 300 330, 380 260 S 560 200, 660 120" fill="none" stroke="#7fb3e0" stroke-width="10" stroke-linecap="round" stroke-dasharray="2 18"/>
+  <circle cx="120" cy="360" r="10" fill="#7fb3e0"/>
+  <rect x="330" y="120" width="140" height="240" rx="20" fill="#1f3a5f"/>
+  <rect x="342" y="136" width="116" height="208" rx="12" fill="#ffffff"/>
+  <path d="M400 160 c -22 0 -38 16 -38 38 c 0 26 38 66 38 66 s 38 -40 38 -66 c 0 -22 -16 -38 -38 -38 z" fill="#d94f3d"/>
+  <circle cx="400" cy="198" r="12" fill="#ffffff"/>
+  <text x="400" y="330" font-family="sans-serif" font-size="18" fill="#1f3a5f" text-anchor="middle">Your phone is here</text>
+  <path d="M500 150 q 26 10 26 36 q 0 26 -26 36 M516 132 q 40 16 40 54 q 0 38 -40 54" fill="none" stroke="#2e7d32" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="492" cy="186" r="8" fill="#2e7d32"/>
+  <text x="400" y="392" font-family="sans-serif" font-size="20" fill="#1f3a5f" text-anchor="middle">Ring it. Lock it. Find it on the map.</text>
+</svg>
