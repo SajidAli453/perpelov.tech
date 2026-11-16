@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" role="img" aria-label="A phone and a pair of wireless headphones with a curved line between them, and a small speaker with sound waves">
+  <rect width="800" height="450" fill="#eaf3fb"/>
+  <rect x="90" y="90" width="170" height="280" rx="22" fill="#1f3a5f"/>
+  <rect x="104" y="106" width="142" height="248" rx="12" fill="#ffffff"/>
+  <circle cx="175" cy="180" r="34" fill="#2e7d32"/>
+  <path d="M165 180 h 20 M175 170 v 20" stroke="#ffffff" stroke-width="8" stroke-linecap="round"/>
+  <text x="175" y="268" font-family="sans-serif" font-size="18" fill="#1f3a5f" text-anchor="middle">Your phone</text>
+  <text x="175" y="296" font-family="sans-serif" font-size="16" fill="#5a6b7d" text-anchor="middle">Bluetooth on</text>
+  <path d="M290 150 C 360 110, 420 110, 480 160 S 560 260, 620 240" fill="none" stroke="#7fb3e0" stroke-width="8" stroke-linecap="round" stroke-dasharray="2 16"/>
+  <path d="M520 150 C 545 120, 580 105, 620 110 C 660 115, 690 145, 695 190 C 700 235, 690 290, 660 320 C 630 350, 590 355, 555 340 C 520 325, 505 285, 512 245" fill="none" stroke="#1f3a5f" stroke-width="14" stroke-linecap="round"/>
+  <rect x="520" y="240" width="60" height="110" rx="28" fill="#1f3a5f"/>
+  <rect x="600" y="240" width="60" height="110" rx="28" fill="#1f3a5f"/>
+  <circle cx="610" cy="205" r="12" fill="#2e7d32"/>
+  <text x="590" y="392" font-family="sans-serif" font-size="20" fill="#1f3a5f" text-anchor="middle">No wire. Just a short, invisible link.</text>
+  <path d="M715 150 q 22 10 22 32 q 0 22 -22 32 M730 132 q 36 16 36 50 q 0 34 -36 50" fill="none" stroke="#2e7d32" stroke-width="7" stroke-linecap="round"/>
+</svg>
