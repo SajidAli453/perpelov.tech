@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" role="img" aria-label="A phone held above a paper page, with a yellow frame around the page and the word Scan on the screen">
+  <rect width="800" height="450" fill="#eaf3fb"/>
+  <rect x="330" y="150" width="300" height="220" rx="6" fill="#ffffff" stroke="#c8d6e2" stroke-width="2"/>
+  <path d="M330 150 h 50 M330 150 v 50 M630 150 h -50 M630 150 v 50 M330 370 h 50 M330 370 v -50 M630 370 h -50 M630 370 v -50" fill="none" stroke="#f2b705" stroke-width="10" stroke-linecap="round"/>
+  <rect x="370" y="185" width="220" height="14" rx="7" fill="#5a6b7d"/>
+  <rect x="370" y="215" width="220" height="10" rx="5" fill="#9fb2c3"/>
+  <rect x="370" y="238" width="220" height="10" rx="5" fill="#9fb2c3"/>
+  <rect x="370" y="261" width="150" height="10" rx="5" fill="#9fb2c3"/>
+  <rect x="370" y="300" width="220" height="10" rx="5" fill="#9fb2c3"/>
+  <rect x="370" y="323" width="180" height="10" rx="5" fill="#9fb2c3"/>
+  <text x="480" y="410" font-family="sans-serif" font-size="20" fill="#1f3a5f" text-anchor="middle">The yellow frame finds the edges of the page.</text>
+  <rect x="90" y="60" width="150" height="280" rx="22" fill="#1f3a5f"/>
+  <rect x="104" y="76" width="122" height="248" rx="12" fill="#ffffff"/>
+  <rect x="120" y="92" width="90" height="110" rx="4" fill="#f7f7f7" stroke="#c8d6e2" stroke-width="2"/>
+  <rect x="132" y="104" width="66" height="8" rx="4" fill="#5a6b7d"/>
+  <rect x="132" y="120" width="66" height="6" rx="3" fill="#9fb2c3"/>
+  <rect x="132" y="134" width="66" height="6" rx="3" fill="#9fb2c3"/>
+  <rect x="132" y="148" width="44" height="6" rx="3" fill="#9fb2c3"/>
+  <rect x="120" y="220" width="90" height="34" rx="17" fill="#2e7d32"/>
+  <text x="165" y="243" font-family="sans-serif" font-size="18" fill="#ffffff" text-anchor="middle">Scan</text>
+  <text x="165" y="300" font-family="sans-serif" font-size="16" fill="#5a6b7d" text-anchor="middle">Your phone</text>
+  <path d="M270 200 C 300 190, 310 200, 325 210" fill="none" stroke="#7fb3e0" stroke-width="6" stroke-linecap="round" stroke-dasharray="2 12"/>
+</svg>
