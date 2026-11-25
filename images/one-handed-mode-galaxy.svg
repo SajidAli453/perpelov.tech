@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" role="img" aria-label="A large phone screen shrunk down into a smaller window at the bottom corner, so the buttons at the top are within reach of one thumb">
+  <rect width="800" height="450" fill="#eaf3fb"/>
+  <rect x="270" y="30" width="260" height="390" rx="22" fill="#1f3a5f"/>
+  <rect x="284" y="46" width="232" height="358" rx="12" fill="#dfe7ee"/>
+  <rect x="284" y="46" width="232" height="358" rx="12" fill="#ffffff" opacity="0.25"/>
+  <rect x="330" y="230" width="170" height="160" rx="12" fill="#ffffff" stroke="#f2b705" stroke-width="3"/>
+  <rect x="346" y="248" width="138" height="14" rx="7" fill="#5a6b7d"/>
+  <rect x="346" y="272" width="138" height="10" rx="5" fill="#9fb2c3"/>
+  <rect x="346" y="290" width="100" height="10" rx="5" fill="#9fb2c3"/>
+  <rect x="346" y="318" width="138" height="30" rx="15" fill="#2e7d32"/>
+  <text x="415" y="339" font-family="sans-serif" font-size="16" fill="#ffffff" text-anchor="middle">Answer</text>
+  <path d="M500 230 l 14 -14 M514 230 l 0 0" fill="none" stroke="#f2b705" stroke-width="5" stroke-linecap="round"/>
+  <text x="415" y="214" font-family="sans-serif" font-size="18" fill="#1f3a5f" text-anchor="middle">Tap to move it</text>
+  <path d="M330 200 q 0 -28 28 -28 h 120" fill="none" stroke="#f2b705" stroke-width="4" stroke-dasharray="8 6" stroke-linecap="round"/>
+  <path d="M478 172 l -14 0 M478 172 l 0 0" fill="none" stroke="#f2b705" stroke-width="4" stroke-linecap="round"/>
+  <polygon points="478,158 492,172 478,186" fill="#f2b705"/>
+  <text x="400" y="428" font-family="sans-serif" font-size="20" fill="#1f3a5f" text-anchor="middle">The whole screen, smaller and within thumb's reach.</text>
+  <g>
+    <rect x="90" y="120" width="110" height="220" rx="18" fill="#1f3a5f"/>
+    <rect x="100" y="132" width="90" height="196" rx="10" fill="#ffffff"/>
+    <rect x="112" y="148" width="66" height="10" rx="5" fill="#5a6b7d"/>
+    <rect x="112" y="166" width="66" height="8" rx="4" fill="#9fb2c3"/>
+    <rect x="112" y="182" width="46" height="8" rx="4" fill="#9fb2c3"/>
+    <rect x="112" y="212" width="66" height="26" rx="13" fill="#2e7d32"/>
+    <text x="145" y="230" font-family="sans-serif" font-size="13" fill="#ffffff" text-anchor="middle">Answer</text>
+    <text x="145" y="290" font-family="sans-serif" font-size="14" fill="#1f3a5f" text-anchor="middle">One thumb</text>
+    <text x="145" y="310" font-family="sans-serif" font-size="14" fill="#1f3a5f" text-anchor="middle">is enough</text>
+  </g>
+</svg>
