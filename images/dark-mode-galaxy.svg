@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" role="img" aria-label="A phone at night showing a dark screen with light words and a small moon, next to the same phone showing a bright white screen">
+  <rect width="800" height="450" fill="#eaf3fb"/>
+  <rect x="120" y="40" width="220" height="370" rx="22" fill="#1f3a5f"/>
+  <rect x="134" y="56" width="192" height="338" rx="12" fill="#f5f7f9"/>
+  <circle cx="290" cy="110" r="26" fill="#f2b705"/>
+  <rect x="152" y="170" width="156" height="14" rx="7" fill="#5a6b7d"/>
+  <rect x="152" y="196" width="156" height="10" rx="5" fill="#9fb2c3"/>
+  <rect x="152" y="214" width="110" height="10" rx="5" fill="#9fb2c3"/>
+  <rect x="152" y="250" width="156" height="30" rx="15" fill="#2e7d32"/>
+  <text x="230" y="271" font-family="sans-serif" font-size="16" fill="#ffffff" text-anchor="middle">Read</text>
+  <text x="230" y="330" font-family="sans-serif" font-size="15" fill="#5a6b7d" text-anchor="middle">Bright screen</text>
+  <path d="M 380 225 L 420 225 M 400 205 L 400 245" stroke="#f2b705" stroke-width="5" stroke-linecap="round"/>
+  <rect x="460" y="40" width="220" height="370" rx="22" fill="#1f3a5f"/>
+  <rect x="474" y="56" width="192" height="338" rx="12" fill="#141c26"/>
+  <path d="M 600 96 a 26 26 0 1 0 12 40 a 20 20 0 1 1 -12 -40 Z" fill="#f2b705"/>
+  <rect x="492" y="170" width="156" height="14" rx="7" fill="#e8edf2"/>
+  <rect x="492" y="196" width="156" height="10" rx="5" fill="#8a9aa8"/>
+  <rect x="492" y="214" width="110" height="10" rx="5" fill="#8a9aa8"/>
+  <rect x="492" y="250" width="156" height="30" rx="15" fill="#2e7d32"/>
+  <text x="570" y="271" font-family="sans-serif" font-size="16" fill="#ffffff" text-anchor="middle">Read</text>
+  <text x="570" y="330" font-family="sans-serif" font-size="15" fill="#8a9aa8" text-anchor="middle">Dark screen</text>
+</svg>
